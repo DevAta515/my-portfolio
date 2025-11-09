@@ -110,7 +110,7 @@ export default function Projects() {
                     className="w-full flex items-center gap-2 bg-background/30 backdrop-blur-sm border-white/20 hover:bg-primary hover:text-primary-foreground transition-all duration-300 group/btn"
                     asChild
                   >
-                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="hover:text-purple-800 hover:font-bold hover:text-lg">
+                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="hover:font-semibold hover:text-lg hover:text-white">
                       <Github className="w-4 h-4 group-hover/btn:scale-110 transition-transform" />
                       View Code
                     </a>

@@ -37,7 +37,7 @@ const achievements = [
 
 export default function About() {
   return (
-    <section id="about" className="w-full py-20 md:py-28 lg:py-32 relative overflow-hidden">
+    <section id="about" className="w-full py-10 md:py-12 lg:py-20 relative overflow-hidden">
       {/* Subtle Background matching other sections */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-purple-900/10 to-blue-900/10">
         {/* Very subtle background elements */}
@@ -52,10 +52,7 @@ export default function About() {
             <span className="text-sm text-muted-foreground">Academic Journey</span>
           </div>
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-4">
-            Academic
-            <span className="block bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
-              Achievements
-            </span>
+            Academic  Achievements
           </h2>
           <p className="max-w-[800px] text-muted-foreground text-lg">
             A foundation built on academic excellence, continuous learning, and practical application 

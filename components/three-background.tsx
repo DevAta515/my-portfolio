@@ -86,7 +86,7 @@ export default function ThreeBackground() {
       })
 
       const shape = new THREE.Mesh(geometry, material)
-      const pos = getRandomPosition(shapes, 12)
+      const pos = getRandomPosition(shapes, 25)
       shape.position.copy(pos)
 
       shape.rotation.x = Math.random() * Math.PI * 2
@@ -94,7 +94,7 @@ export default function ThreeBackground() {
       shape.rotation.z = Math.random() * Math.PI * 2
 
       // Increased shape size by 200%
-      const scale = (Math.random() * 3) * 4
+      const scale = Math.random() * 3 + 7
       shape.scale.set(scale, scale, scale)
 
       ;(shape as any).velocity = new THREE.Vector3(

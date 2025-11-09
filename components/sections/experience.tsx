@@ -22,7 +22,7 @@ const experience = [
 
 export default function Experience() {
   return (
-    <section id="experience" className="w-full py-20 md:py-24 lg:py-28 relative overflow-hidden">
+    <section id="experience" className="w-full py-10 md:py-12 lg:py-20 relative overflow-hidden">
       {/* Subtle Background matching other sections */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-purple-900/10 to-blue-900/10">
         <div className="absolute top-1/4 right-1/4 w-64 h-64 bg-purple-500/5 rounded-full blur-3xl"></div>

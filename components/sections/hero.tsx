@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 
 export default function Hero() {
   return (
-    <section id="home" className="w-full py-20 md:py-32 lg:py-40 mx-auto xl:py-48 relative overflow-hidden">
+    <section id="home" className="w-full py-10 md:py-32 lg:py-20 mx-auto xl:py-28 relative overflow-hidden">
       {/* Background with your OKLCH colors */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-purple-900/10 to-blue-900/10"></div>
       
